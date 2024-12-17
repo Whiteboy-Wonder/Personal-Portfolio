@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+.headContainer {
+    background-color: #68C3D4;
+    padding-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #68C3D4
+}
+
+body {
+    background-color: #F7DBA7;
+}
+
+.buttons {
+    display: inline;
+    padding-left: 450px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    text-align: center;
+    border-style: white;
+    color: #fff;
+}
+
+button {
+    width: 100px;
+    border-radius: 10px;
+    border-color: #fff;
+    background-color: #fff;
+    box-shadow: 0.25rem 0.25rem 0rem rgb(39, 39, 39);
+    gap: 5rem;
+    border: none;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: black;
+}
+
+button:hover {
+    background-color: #F1AB86;
+}
+
+.myPhoto {
+    margin-top: 125px;
+    padding-left: 50px;
+    display: flex;
+}
+
+img {
+    border-radius: 50%;
+    width: 300px;
+    height: 400px;
+}
+
+.myPhoto pre {
+    font-size: 15px;
+    padding-top: 130px;
+    padding-left: 0px;
+    padding-right: 100px;
+    background-color: salmon;
+}
+
+@media (max-width: 600px) {
+    .buttons {
+        display: inline;
+        padding-left: 75%;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 1.6%;
+        text-align: center;
+        border-style: white;
+        color: #fff;
+    }
+
+    button {
+        width: 16%;
+        border-radius: 1.6%
+    }
+
+    .myPhoto {
+        margin-top: 125px;
+        padding-left: 50px;
+        display: flex;
+    }
+
+    img {
+        border-radius: 50%;
+        width: 300px;
+        height: 400px;
+    }
+
+    .myPhoto pre {
+        font-size: 15px;
+        padding-top: 125px;
+    }
+}

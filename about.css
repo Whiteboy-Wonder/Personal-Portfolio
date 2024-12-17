@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Protest+Guerrilla&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+.headContainer {
+    background-color: #68C3D4;
+    padding-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #68C3D4;
+}
+
+body {
+    background-color: #F7DBA7;
+}
+
+a {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#time {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "Orbitron", serif;
+    font-weight: 500;
+    padding-left: 200px;
+}
+
+.buttons {
+    display: inline;
+    padding-left: 450px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    text-align: center;
+    border-style: white;
+    color: #fff;
+}
+
+.tustinAndOCCImage {
+    display: flex;
+}
+
+.tustinAndOCCImage img{
+    margin-top: 7px;
+    margin-left: 100px;
+    border: 5px solid #826251;
+    display: flex;
+}
+
+.tustinAndOCCDescription {
+    margin-top: 10px;;
+    background-color: salmon;
+    margin-right: 590px;
+    margin-left: 100px;
+    text-align: center;
+    display: flex;
+}
+
+.interestDescription {
+    background-color: salmon;
+    margin-right: 590px;
+    margin-left: 100px;
+    text-align: center;
+    display: flex;
+}
+
+.description p {
+    background-color: salmon;
+    text-align: center;
+}
+
+.button {
+    width: 100px;
+    border-radius: 10px;
+    border-color: #fff;
+    background-color: #fff;
+    box-shadow: 0.25rem 0.25rem 0rem rgb(39, 39, 39);
+    gap: 5rem;
+    border: none;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: black;
+}
+
+button:hover {
+    background-color: #F1AB86;
+}
+
+.row {
+    margin-top: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 100px 100px 100px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+}
+
+.img-hover-zoom {
+    height: auto;
+    overflow: hidden;
+    border: 5px solid #826251;
+}
+
+.img-hover-zoom img {
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img{
+    transform: scale(1.5)
+}
+
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#gameContainer {
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+#restartButton {
+    width: 100px;
+    border-radius: 10px;
+    border-color: #fff;
+    background-color: #fff;
+    box-shadow: 0.25rem 0.25rem 0rem rgb(39, 39, 39);
+    gap: 5rem;
+    border: none;
+}
+
+#restartButton:hover {
+    background-color: #F1AB86;
+}
+
+@media (max-width: 600px) {
+    
+    .headContainer {
+        background-color: #68C3D4;
+        padding-bottom: 5px;
+    }
+    
+    h1 {
+        text-align: center;
+        background-color: #68C3D4;
+    }
+    
+    body {
+        background-color: #F7DBA7;
+    }
+    
+    .buttons {
+        display: inline;
+        padding-left: 20px;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 5px;
+        text-align: center;
+        border-style: white;
+        color: #fff;
+    }
+    
+    .tustinAndOCCImage {
+        display: flex;
+    }
+    
+    .tustinAndOCCImage img{
+        margin-top: 7px;
+        margin-left: 20px;
+        border: 5px solid #826251;
+        display: flex;
+    }
+    
+    .tustinAndOCCDescription {
+        margin-top: 10px;;
+        background-color: salmon;
+        margin-right: 60px;
+        margin-left: 10px;
+        text-align: center;
+        display: flex;
+    }
+    
+    .interestDescription {
+        background-color: salmon;
+        margin-right: 60px;
+        margin-left: 10px;
+        text-align: center;
+        display: flex;
+    }
+    
+    .description p {
+        background-color: salmon;
+        text-align: center;
+    }
+    
+    .button {
+        width: 10px;
+        border-radius: 1px;
+        border-color: #fff;
+        background-color: #fff;
+        box-shadow: 0.25rem 0.25rem 0rem rgb(39, 39, 39);
+        gap: 5rem;
+        border: none;
+    }
+    
+    .buttons a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    button:hover {
+        background-color: #F1AB86;
+    }
+    
+    .row {
+        margin-top: 7px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 10px 10px 10px;
+    }
+    
+    .column {
+        flex: 25%;
+        max-width: 25%;
+    }
+    
+    .img-hover-zoom {
+        height: auto;
+        overflow: hidden;
+        border: 5px solid #826251;
+    }
+    
+    .img-hover-zoom img {
+        vertical-align: middle;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: transform .5s ease;
+    }
+    
+    .img-hover-zoom:hover img{
+        transform: scale(1.5)
+    }
+    
+    .cell {
+        width: 75px;
+        height: 75px;
+        border: 2px solid;
+        box-shadow: 0 0 0 2px;
+        line-height: 75px;
+        font-size: 50px;
+        cursor: pointer;
+    }
+    
+    #gameContainer {
+        font-family: "Permanent Marker", cursive;
+        text-align: center;
+    }
+    
+    #cellContainer {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        width: 23px;
+        margin: auto;
+    }
+    
+    #restartButton {
+        width: 10px;
+        border-radius: 1px;
+        border-color: #fff;
+        background-color: #fff;
+        box-shadow: 0.25rem 0.25rem 0rem rgb(39, 39, 39);
+        gap: 5rem;
+        border: none;
+    }
+    
+    #restartButton:hover {
+        background-color: #F1AB86;
+    }
+}

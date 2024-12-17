@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+
+.headContainer {
+    background-color: #68C3D4;
+    padding-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #68C3D4;
+}
+
+body {
+    background-color: #F7DBA7;
+}
+
+.buttons {
+    display: inline;
+    padding-left: 450px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    text-align: center;
+    border-style: white;
+    color: #fff;
+}
+
+button {
+    width: 100px;
+    border-radius: 10px;
+    border-color: #fff;
+    background-color: #fff;
+    box-shadow: 0.25rem 0.25rem 0rem rgb(39, 39, 39);
+    gap: 5rem;
+    border: none;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: black;
+}
+
+button:hover {
+    background-color: #F1AB86;
+}
+
+.technicalSkillsPhotos {
+    width: 1420px;
+    display: flex;
+    border: 100px;
+}
+
+img {
+    width: 50%;
+    margin-top: 8px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+.container {
+    display: flex;
+    background-color: salmon;
+}
+
+.technicalSkills {
+    padding-left: 10px;
+    width: 50%;
+    display: inline-block;
+}
+
+h2 {
+    padding-left: 275px;
+}
+
+.nonTechnicalSkills {
+    display: inline-block;
+}
+
+@media (max-width: 600px) {
+
+    .headContainer {
+        background-color: #68C3D4;
+        padding-bottom: 1px;
+    }
+    
+    h1 {
+        text-align: center;
+        background-color: #68C3D4;
+    }
+    
+    body {
+        background-color: #F7DBA7;
+    }
+    
+    .buttons {
+        display: inline;
+        padding-left: 45px;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 1px;
+        text-align: center;
+        border-style: white;
+        color: #fff;
+    }
+    
+    button {
+        width: 10px;
+        border-radius: 1px;
+        border-color: #fff;
+        background-color: #fff;
+        box-shadow: 0.25rem 0.25rem 0rem rgb(39, 39, 39);
+        gap: 5rem;
+        border: none;
+    }
+    
+    .buttons a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    button:hover {
+        background-color: #F1AB86;
+    }
+    
+    .technicalSkillsPhotos {
+        width: 142px;
+        display: flex;
+        border: 10px;
+    }
+    
+    img {
+        width: 50%;
+        margin-top: 8px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+    }
+    
+    .container {
+        display: flex;
+        background-color: salmon;
+    }
+    
+    .technicalSkills {
+        padding-left: 10px;
+        width: 50%;
+        display: inline-block;
+    }
+    
+    h2 {
+        padding-left: 27px;
+    }
+    
+    .nonTechnicalSkills {
+        display: inline-block;
+    }
+}
